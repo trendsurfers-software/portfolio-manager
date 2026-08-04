@@ -1,6 +1,6 @@
 # TrendSurfers Portfolio Manager
 
-> A professional desktop application for MetaTrader 5 traders — build, calibrate, and deploy risk-optimized multi-strategy portfolios. **Now with parallel MT5 backtesting via subworker terminals (v3.0.0).**
+> A professional desktop application for MetaTrader 5 traders — build, calibrate, and deploy risk-optimized multi-strategy portfolios. **Now with multi-broker backtesting, a guided MT5 setup, and a one-click AI setup that runs your backtests *and* reads the results (3.4.1 preview).**
 
 **Website:** [trendsurfers.io](https://trendsurfers.io/)
 
@@ -17,38 +17,43 @@ The result: a set of ready-to-deploy `.set` files where every strategy contribut
 ## Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xInfinitYz/TrendSurfers.PortfolioManager/main/pictures/product.png" alt="Portfolio Manager" width="720"/>
-  <br/><em>Portfolio Manager — parallel MT5 backtesting, calibrated portfolios, smarter decisions</em>
+  <img src="pictures/preview_home.PNG" alt="Home — the new dashboard" width="720"/>
+  <br/><em>Home — guided MetaTrader 5 setup, live workers, and one-glance access to every tool</em>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xInfinitYz/TrendSurfers.PortfolioManager/main/pictures/subworkers_2.png" alt="Workers panel — live status and resource sizing" width="720"/>
+  <img src="pictures/multi_broker.PNG" alt="Multi-broker registration" width="720"/>
+  <br/><em>Multi-broker — register and switch brokers from inside the app, then backtest across them</em>
+</p>
+
+<p align="center">
+  <img src="pictures/new_settings.PNG" alt="Settings — the MCP AI Combo card" width="720"/>
+  <br/><em>Settings — copy one MCP configuration and your AI assistant gains both hands (run backtests) and eyes (read results in StrategyLens)</em>
+</p>
+
+<p align="center">
+  <img src="pictures/drs_profiles.PNG" alt="Dynamic Risk Settings profiles" width="720"/>
+  <br/><em>Dynamic Risk Settings profiles — define risk once, reuse it across every strategy</em>
+</p>
+
+<p align="center">
+  <img src="pictures/subworkers_2.png" alt="Workers panel — live status and resource sizing" width="720"/>
   <br/><em>Workers panel — live status, smart resource sizing, and per-strategy elapsed timers</em>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xInfinitYz/TrendSurfers.PortfolioManager/main/pictures/home.png" alt="Home Dashboard" width="720"/>
-  <br/><em>Home Dashboard — quick access to all tools</em>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xInfinitYz/TrendSurfers.PortfolioManager/main/pictures/backtester.png" alt="Backtester" width="720"/>
+  <img src="pictures/backtester.png" alt="Backtester" width="720"/>
   <br/><em>Backtester — batch backtest queue with MT5 auto-discovery</em>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xInfinitYz/TrendSurfers.PortfolioManager/main/pictures/wizard_calibration.png" alt="Portfolio Wizard — Calibration" width="720"/>
+  <img src="pictures/wizard_calibration.png" alt="Portfolio Wizard — Calibration" width="720"/>
   <br/><em>Portfolio Wizard — Calibration step: compute LotSizeStep for any account size</em>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xInfinitYz/TrendSurfers.PortfolioManager/main/pictures/wizard_statistics.png" alt="Portfolio Wizard — Statistics" width="720"/>
+  <img src="pictures/wizard_statistics.png" alt="Portfolio Wizard — Statistics" width="720"/>
   <br/><em>Portfolio Wizard — Statistics: portfolio-level Sharpe, profit factor, and correlation matrix</em>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xInfinitYz/TrendSurfers.PortfolioManager/main/pictures/strategies-balancer.png" alt="Strategies Balancer" width="720"/>
-  <br/><em>Strategies Balancer — equalise max drawdown across all strategies at your target DD%</em>
 </p>
 
 ---
