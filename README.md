@@ -4,6 +4,8 @@
 
 **Website:** [trendsurfers.io](https://trendsurfers.io/)
 
+**📖 New here?** Start with the **[Quick-Start Guide (PDF)](docs/Portfolio-Manager-Quick-Start-Guide.pdf)** — a beginner-friendly walkthrough from install to your first balanced portfolio.
+
 ---
 
 ## What Is It?
