@@ -165,7 +165,7 @@ Lots = floor(AccountBalance / LotSizeStep) × 0.01
 
 ---
 
-## ⚠️ Known Issues — v3.4.1 Preview 9
+## ⚠️ Known Limitations — v3.4.1 Preview 9
 
 **This build is digitally signed**, issued through Microsoft's own code-signing service — Windows recognizes Portfolio Manager as coming from a verified publisher instead of showing an unknown-publisher warning.
 
