@@ -165,6 +165,21 @@ Lots = floor(AccountBalance / LotSizeStep) × 0.01
 
 ---
 
+## ⚠️ Known Issues — v3.4.1 Preview 9
+
+**This build is digitally signed**, issued through Microsoft's own code-signing service — Windows recognizes Portfolio Manager as coming from a verified publisher instead of showing an unknown-publisher warning.
+
+**A few antivirus tools may still flag it — this is expected, not a real detection.** A newly signed publisher doesn't have an established reputation yet, so in the period right after signing starts, some antivirus tools may report a false positive (trojan, malware, or ransomware) on the installer. A few users have already reported this. It should clear up on its own as the signed publisher builds a track record. If your antivirus flags the installer, it's safe to allow it.
+
+**Tick preparation for backtests has been rebuilt, and a few gaps remain while that work continues:**
+- Preparing tick data ahead of a backtest is currently based on the single Symbol chosen in the Backtesting Planner or Portfolio Builder. A strategy that trades more than one symbol internally, or the Ultimate Breakout System run through its AutoLoader, doesn't get its data prepared this way yet — those runs still work, just without that speed benefit.
+- Only the master terminal's minute-bar history is prepared ahead of time today; each MT5 Subworker running in parallel still downloads its own minute-bar history independently.
+- A queued batch prepares every symbol in it before any backtest in that batch starts, even if one strategy's data was ready sooner. We're actively working on preparing symbols in parallel when Subworkers are available, and on always preparing whichever symbol next unlocks the most strategies when they aren't — so backtests start running sooner either way.
+
+We're aware of all of the above and actively working through them.
+
+---
+
 ## Contact & Community
 
 | Channel | Link |
